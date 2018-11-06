@@ -1,0 +1,36 @@
+{
+  "name": "@behaver/solar-planets-hecc",
+  "version": "1.0.0",
+  "description": "This package is created for calcultating main planets of solar system heliocentric ecliptic coordinate.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behaver/solar-planets-hecc.git"
+  },
+  "keywords": [
+    "heliocentric",
+    "coordinate"
+  ],
+  "author": "Sanwan, Dong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/behaver/solar-planets-hecc/issues"
+  },
+  "homepage": "https://github.com/behaver/solar-planets-hecc#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "@behaver/angle": "^2.0.2",
+    "@behaver/coordinate": "^3.3.0",
+    "@behaver/jdate": "^2.1.0"
+  }
+}
