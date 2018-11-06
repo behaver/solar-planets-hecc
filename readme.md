@@ -115,11 +115,11 @@ venus.setMaxError('r', 0.000005, 'safe');
 
 精度等级和安全最大误差（单位：弧度 / AU）的对应关系：
 
-low      0.00005 
-normal   0.000005
-high     0.0000005
-fine     0.00000005
-complete 0
+* low      0.00005 
+* normal   0.000005
+* high     0.0000005
+* fine     0.00000005
+* complete 0
 
 此处不考虑 VSOP87 数据算法自身误差，实际误差要进行叠加。
 
