@@ -1,12 +1,12 @@
 'use strict';
 
-const Mercury = require('./src/planets/Mercury');
-const Mars = require('./src/planets/Mars');
-const Earth = require('./src/planets/Earth');
-const Venus = require('./src/planets/Venus');
-const Jupiter = require('./src/planets/Jupiter');
-const Saturn = require('./src/planets/Saturn');
-const Uranus = require('./src/planets/Uranus');
-const Neptune = require('./src/planets/Neptune');
+const MercuryHECC = require('./src/planets/Mercury');
+const MarsHECC = require('./src/planets/Mars');
+const EarthHECC = require('./src/planets/Earth');
+const VenusHECC = require('./src/planets/Venus');
+const JupiterHECC = require('./src/planets/Jupiter');
+const SaturnHECC = require('./src/planets/Saturn');
+const UranusHECC = require('./src/planets/Uranus');
+const NeptuneHECC = require('./src/planets/Neptune');
 
-module.exports = { Mercury, Mars, Earth, Venus, Jupiter, Saturn, Uranus, Neptune };
+module.exports = { MercuryHECC, MarsHECC, EarthHECC, VenusHECC, JupiterHECC, SaturnHECC, UranusHECC, NeptuneHECC };
