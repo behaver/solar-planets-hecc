@@ -16,12 +16,12 @@ SolarPlanetsHECC 是计算太阳系行星的日心黄道坐标的组件库，这
 
 安装完成后，调用即可：
 
-`const { Mercury, Mars, Earth } = require('@behaver/solar-planets-hecc');`
+`const { MercuryHECC, MarsHECC, EarthHECC } = require('@behaver/solar-planets-hecc');`
 
 ## 用例
 
 ```js
-const { Venus } = require('@behaver/solar-planets-hecc');
+const { VenusHECC } = require('@behaver/solar-planets-hecc');
 const { JDateRepository } = require('@behaver/jdate');
 
 let jdr = new JDateRepository(2446896);
@@ -43,7 +43,7 @@ let sc = venus.sc;
 关于计算误差的设置：
 
 ```js
-const { Venus } = require('@behaver/solar-planets-hecc');
+const { VenusHECC } = require('@behaver/solar-planets-hecc');
 const { JDateRepository } = require('@behaver/jdate');
 
 let jdr = new JDateRepository(2446896);
