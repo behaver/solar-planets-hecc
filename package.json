@@ -1,6 +1,6 @@
 {
   "name": "@behaver/solar-planets-hecc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package is created for calcultating main planets of solar system heliocentric ecliptic coordinate.",
   "main": "index.js",
   "directories": {
