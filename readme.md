@@ -4,7 +4,7 @@
 
 ## 简介
 
-SolarPlanetsHECC 是计算太阳系行星的日心黄道坐标的组件库，这其中包含了 *Mercury*、*Mars*、*Earth*、*Venus*、*Jupiter*、*Saturn*、*Uranus*、*Neptune* 这八个太阳系行星的日心黄道坐标计算组件。
+SolarPlanetsHECC 是计算太阳系行星的动力学 Date 日心平黄道坐标的组件库，这其中包含了 *Mercury*、*Mars*、*Earth*、*Venus*、*Jupiter*、*Saturn*、*Uranus*、*Neptune* 这八个太阳系行星的日心黄道坐标计算组件。
 
 核心组件 VSOP87 计算器文档，另见：[VSOP87Calculator](./doc/VSOP87Calculator.md)
 
