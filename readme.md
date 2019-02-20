@@ -25,7 +25,7 @@ const { VenusHECC } = require('@behaver/solar-planets-hecc');
 const { JDateRepository } = require('@behaver/jdate');
 
 let jdr = new JDateRepository(2446896);
-let venus = Venus(jdr);
+let venus = VenusHECC(jdr);
 
 // 获取金星日心黄经度数
 let l = venus.l.getDegrees();
@@ -47,7 +47,7 @@ const { VenusHECC } = require('@behaver/solar-planets-hecc');
 const { JDateRepository } = require('@behaver/jdate');
 
 let jdr = new JDateRepository(2446896);
-let venus = Venus(jdr);
+let venus = VenusHECC(jdr);
 
 // 方法一：调整精度等级
 venus.accuracy = 'low';

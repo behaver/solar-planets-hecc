@@ -115,6 +115,12 @@ class PlanetHECCOnVSOP87 {
 
     this.private[item].truncationNums = tNumsArray;
 
+    // 清除原始缓存数据
+    this.cache.remove(item);
+
+    // 精度级别为自定义
+    this.private.accuracy = 'custom';
+
     return this;
   }
 
@@ -162,6 +168,10 @@ class PlanetHECCOnVSOP87 {
         throw Error('The param mode should be true、mean or safe.');
     }
 
+    // 清除原始缓存数据
+    this.cache.remove(item);
+
+    // 精度级别为自定义
     this.private.accuracy = 'custom';
 
     return this;

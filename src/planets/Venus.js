@@ -74,7 +74,13 @@ class Venus extends PlanetHECCOnVSOP87 {
         throw Error('The param level was illegal.');
     }
 
-    this.private.accuracy = level;
+    if (level !== this.private.accuracy) {
+      
+      // 清除原始缓存数据
+      this.cache.clear();
+
+      this.private.accuracy = level;
+    }
   }
 
   /**
