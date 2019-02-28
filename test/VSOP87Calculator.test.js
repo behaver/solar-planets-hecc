@@ -63,11 +63,6 @@ describe('#VSOP87Calculator', () => {
         let calculator = new VSOP87Calculator(new JDateRepository(2446896));
         calculator.calc(123, [ 27, 15, 8, 4, 3, 1 ]);
       }).to.throw();
-
-      expect(() => {
-        let calculator = new VSOP87Calculator(new JDateRepository(2446896));
-        calculator.calc([123], [ 27, 15, 8, 4, 3, 1 ]);
-      }).to.throw();
     });
 
     it('The param tNumsArray should be an Array or undefined', () => {

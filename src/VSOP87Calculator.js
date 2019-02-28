@@ -62,7 +62,7 @@ class VSOP87Calculator {
       let sum = 0;
       let tNum = 
         tNumsArray != undefined && tNumsArray[i] != undefined 
-        ? tNumsArray[i] 
+        ? Math.min(tNumsArray[i], dataArray[i].length) 
         : dataArray[i].length;
         
       for (var j = 0; j < tNum; j++) {
@@ -94,7 +94,7 @@ class VSOP87Calculator {
     for (var i = 0; i < dataArray.length; i++) {
       let n = 
         tNumsArray != undefined && tNumsArray[i] != undefined 
-        ? tNumsArray[i] 
+        ? Math.min(tNumsArray[i], dataArray[i].length)
         : dataArray[i].length;
       if (!n) continue;
       let A = dataArray[i][n-1][0];

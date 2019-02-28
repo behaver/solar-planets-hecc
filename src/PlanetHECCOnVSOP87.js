@@ -18,7 +18,7 @@ class PlanetHECCOnVSOP87 {
   /**
    * 构造函数
    * 
-   * @param  {JDateRepository} obTime 观测儒略时间
+   * @param {JDateRepository} obTime 观测儒略时间
    */
   constructor(obTime) {
     this.private = {};

@@ -81,25 +81,27 @@ venus.setMaxError('r', 0.000005, 'safe');
 
 `get l()`
 
-获取 行星日心黄经值
+获取 行星 Date 日心黄经值
 
 `get b()`
 
-获取 行星日心黄纬值
+获取 行星 Date 日心黄纬值
 
 `get r()`
 
-获取 行星日心距离
+获取 行星 Date 日心距离，单位：AU
 
 `get sc()`
 
-获取 行星日心黄道球坐标
+获取 行星 Date 日心黄道球坐标
 
 `get obTime()`
 
 获取观测儒略时间
 
 `set obTime(jdr)`
+
+* jdr 儒略时间对象
 
 设定观测儒略时间
 
@@ -113,7 +115,7 @@ venus.setMaxError('r', 0.000005, 'safe');
 
 * levev 包括以下几个等级：low, normal, high, fine, complete。
 
-精度等级和安全最大误差（单位：弧度 / AU）的对应关系：
+精度等级和安全最大误差（单位：弧度, AU）的对应关系：
 
 * low      0.00005 
 * normal   0.000005
