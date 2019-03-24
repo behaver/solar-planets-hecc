@@ -29,8 +29,12 @@
     "mocha": "^5.2.0"
   },
   "dependencies": {
-    "@behaver/angle": "^2.0.2",
-    "@behaver/coordinate": "^3.3.1",
-    "@behaver/jdate": "^2.3.0"
-  }
+    "@behaver/angle": "^2.0.3",
+    "@behaver/coordinate": "^3.3.3",
+    "@behaver/jdate": "^2.3.2"
+  },
+  "files": [
+    "data",
+    "src"
+  ]
 }
