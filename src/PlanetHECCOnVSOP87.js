@@ -77,7 +77,7 @@ class PlanetHECCOnVSOP87 {
    * @return {SphericalCoordinate3D} 行星日心黄道球坐标
    */
   get sc() {
-    return new SphericalCoordinate3D(this.r, Math.PI / 2 - this.b.inRound(-90, 'd').getRadian(), this.l.inRound().getRadian());
+    return new SphericalCoordinate3D(this.r, Math.PI / 2 - this.b.getRadian(), this.l.getRadian());
   }
 
   /**

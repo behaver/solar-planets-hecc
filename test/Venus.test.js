@@ -195,7 +195,7 @@ describe('#Venus', () => {
       let venus = new Venus(new JDateRepository(2448976.5, 'jde'));
       let sc = venus.sc;
 
-      expect(sc.phi).to.closeTo(angle.setRadian(-68.6592582).inRound().getRadian(), 0.00001);
+      expect(venus.l.inRound().getRadian()).to.closeTo(angle.setRadian(-68.6592582).inRound().getRadian(), 0.00001);
       expect(Math.PI / 2 - sc.theta).to.closeTo(angle.setRadian(-0.0457399).inRound(-90).getRadian(), 0.00001);
       expect(sc.r).to.closeTo(0.724603, 0.00001);
     })
