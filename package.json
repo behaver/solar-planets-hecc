@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@behaver/angle": "^2.0.3",
-    "@behaver/coordinate": "^3.3.3",
+    "@behaver/coordinate": "^3.4.0",
     "@behaver/jdate": "^2.3.2"
   },
   "files": [
