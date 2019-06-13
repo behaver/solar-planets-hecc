@@ -22,6 +22,10 @@ class PlanetHECCOnVSOP87 {
    */
   constructor(obTime) {
     this.private = {};
+
+    // 参数缺省设置
+    obTime = obTime ? obTime : new JDateRepository;
+
     this.private.obTime = obTime;
     this.cache = new CacheSpaceOnJDate(obTime);
     this.calculator = new VSOP87Calculator(obTime);
